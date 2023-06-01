@@ -1,0 +1,39 @@
+
+/*css style for image uploader   */
+.uploadcontainer {
+  max-width: 400px;
+  width: 100%;
+  display: inline-block;
+  background: #d2f5f9;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius:30px;
+}
+.img-area{
+  position:relative;
+  width:100%;
+  height:200px;
+  background: #e6e6e6;
+  margin-bottom:30px;
+  border-radius:15px;
+  overflow:hidden;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+.img-area .icon{
+  font-size:50px;
+}
+.img-area img{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  z-index:100;
+  
+}
